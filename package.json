@@ -1,0 +1,21 @@
+{
+  "name": "rework-postfix",
+  "version": "0.0.1",
+  "description": "Rework plugin adds a postfix to all declarations .e.g. !important.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": "",
+  "keywords": [
+    "rework",
+    "css",
+    "important"
+  ],
+  "author": "Tim Oxley",
+  "license": "MIT",
+  "devDependencies": {
+    "rework": "~0.14.0",
+    "mocha": "~1.9.0"
+  }
+}
