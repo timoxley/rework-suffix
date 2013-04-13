@@ -6,7 +6,10 @@
   "scripts": {
     "test": "mocha test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timoxley/rework-suffix.git"
+  },
   "keywords": [
     "rework",
     "css",
@@ -17,5 +20,13 @@
   "devDependencies": {
     "rework": "~0.14.0",
     "mocha": "~1.9.0"
+  },
+  "readmeFilename": "Readme.md",
+  "gitHead": "dfe3ca2806ba7f6854bacc55d50529303b369ba6",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "rework": "~0.14.0"
   }
 }
