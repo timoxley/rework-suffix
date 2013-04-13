@@ -1,6 +1,6 @@
-# rework-important
+# rework-suffix
 
-[visionmedia/rework] plugin for adding postfixes to CSS declarations,
+[visionmedia/rework] plugin for adding suffixes to CSS declarations,
 e.g. !important.
 
 ## Example
@@ -16,7 +16,8 @@ body {
 /* rework.js */
 ...
 
-var important = require('rework-important')
+var important = require('rework-suffix') 
+// uses !important suffix by default
 
 var css = rework(read('input.css', 'utf8'))
   .use(important)

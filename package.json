@@ -1,7 +1,7 @@
 {
-  "name": "rework-postfix",
+  "name": "rework-suffix",
   "version": "0.0.1",
-  "description": "Rework plugin adds a postfix to all declarations e.g. !important.",
+  "description": "Rework plugin adds a suffix to all declarations e.g. !important.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
