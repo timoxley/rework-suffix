@@ -1,6 +1,6 @@
 # rework-suffix
 
-[visionmedia/rework] plugin for adding suffixes to CSS declarations,
+[visionmedia/rework](https://github.com/visionmedia/rework) plugin for adding suffixes to CSS declarations,
 e.g. !important.
 
 ## Example
