@@ -1,6 +1,6 @@
-# rework-suffix
-
 [![Build Status](https://travis-ci.org/timoxley/rework-suffix.png?branch=master)](https://travis-ci.org/timoxley/rework-suffix)
+
+# rework-suffix
 
 [visionmedia/rework](https://github.com/visionmedia/rework) plugin for adding suffixes to CSS declarations,
 e.g. !important.
