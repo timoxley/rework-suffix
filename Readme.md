@@ -6,17 +6,15 @@
 e.g. !important.
 
 ## Example
-
+#### input.css
 ```css
-/* input.css */
 body {
   color: red;
 }
 ```
-
+#### rework.js
 ```js
-/* rework.js */
-...
+// pretend read and write are defined.
 
 var important = require('rework-suffix') 
 // uses !important suffix by default
@@ -26,12 +24,11 @@ var css = rework(read('input.css', 'utf8'))
   .toString()
 
 write('output.css', css)
-...
+// ...
 
 ```
-
+#### output.css
 ```css
-/* output.css */
 body {
   color: red !important;
 }
