@@ -14,18 +14,17 @@ body {
 ```
 #### rework.js
 ```js
-// pretend read and write are defined.
 
-var important = require('rework-suffix') 
-// uses !important suffix by default
+var reworkSuffix = require('rework-suffix') 
+
+var important = reworkSuffix.suffix(' !important');
+// also could just do important = require('rework-suffix'), as it's the default.
 
 var css = rework(read('input.css', 'utf8'))
   .use(important)
   .toString()
 
 write('output.css', css)
-// ...
-
 ```
 #### output.css
 ```css
