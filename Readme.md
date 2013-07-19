@@ -18,7 +18,9 @@ body {
 var reworkSuffix = require('rework-suffix') 
 
 var important = reworkSuffix.suffix(' !important');
-// also could just do important = require('rework-suffix'), as it's the default.
+// Could also just do:
+//   var important = require('rework-suffix')
+// This is the default.
 
 var css = rework(read('input.css', 'utf8'))
   .use(important)
