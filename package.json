@@ -1,6 +1,6 @@
 {
   "name": "rework-suffix",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rework plugin adds a suffix to all declarations e.g. !important.",
   "main": "index.js",
   "scripts": {
