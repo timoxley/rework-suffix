@@ -18,8 +18,7 @@
   "author": "Tim Oxley",
   "license": "MIT",
   "devDependencies": {
-    "rework": "~0.14.0",
-    "mocha": "~1.9.0"
+    "mocha": "~1.15.1"
   },
   "readmeFilename": "Readme.md",
   "gitHead": "dfe3ca2806ba7f6854bacc55d50529303b369ba6",
@@ -27,6 +26,6 @@
     "test": "test"
   },
   "dependencies": {
-    "rework": "~0.14.0"
+    "rework": "~0.18.3"
   }
 }
